@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Debug Expo Web - Experimental",
+            "request": "launch",
+            "type": "reactnative",
+            "cwd": "${workspaceFolder}",
+            "platform": "expoweb",
+            "browserTarget": "chrome",
+            "url": "http://localhost:8081"
+        },
+       
