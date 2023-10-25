@@ -19,18 +19,14 @@ export default class ButtonBasics extends Component {
                     <Button  
                         onPress={this.onPressButton}  
                         title="sign Out"  
-                        color="#009933"  
+                        color="#301934"  
                     />  
                 </View>  
                 <View style={styles.multiButtonContainer}>  
+                    
                     <Button  
                         onPress={this.onPressButton}  
-                        title="A disabled button"  
-                        disabled={true}  
-                    />  
-                    <Button  
-                        onPress={this.onPressButton}  
-                        title="OK!"  
+                        title="ok log in!"  
                         color="#009933"  
                     />  
                 </View>  
